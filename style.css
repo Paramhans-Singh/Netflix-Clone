@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.453),rgba(0,0,0,0.737)),url('./images/bg-img.jpg');
+    background-color: black;
+    border-bottom: 10px solid gray;
+}
+.navbar{
+    width: 100%;
+    height: max-content;
+    padding: 5px 10%;
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.navLogo{
+    width: 15%;
+    min-width: 100px;
+}
+.logo{
+    width: 100%;
+}
+.btndiv{
+    display: flex;
+    padding: 0px 2%;
+    gap: 20px;
+    min-width: 40%;
+    align-items: center;
+    justify-content: right;
+    color: white;
+}
+.centerContent{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 150%;
+    color: white;
+    text-align: center;
+}
+.centre{
+    font-size: 200%;
+    font-weight:bolder;
+}
+.emailbox{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.emailbtn{
+    font-size: inherit;    
+    text-align: center;
+}
+input{
+    font-size: 80%;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+    width: 40%;
+}
+input::placeholder{
+    color: white;
+}
+
+@media (max-width: 480px){
+    *{
+        height: max-content;
+    }
+    .dis{
+        display: none;
+    }
+    .section{
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        font-size: x-large;
+        text-overflow: clip;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .emailbox{
+        flex-direction: column;
+    }
+}
+
+
+.contain{
+    text-align: center;
+    padding: 80px 2%;
+    width: 100%;
+    background-color: black;
+    height:max-content;
+    border-bottom:10px solid rgb(34, 34, 34) ;
+}
+.section{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 2% 5%;
+}
+.left{
+    width: 100%;
+    padding: 5%;
+    font-size: x-large;
+}
+.left-head{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 200%;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+
+}
+.left-head-d{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.right{
+    width: 100%;
+    margin: auto;
+}
+.tv{
+    width: 100%;
+    height: 100%;
+}
+.tv-2{
+    width: 80%;
+}
+
+.faq{
+    width: 100%;
+    padding: 10% 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    border-bottom: 10px solid gray;
+}
+.faq-head{
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.accordion-item{
+    background-color: black !important;
+    color: white;
+    font-size: large;
+}
+.accordion-item button{
+    color: white;
+    background-color: black;
+    font-size: large;
+    text-align: center;
+}
+.accordion-item button:active{
+    background-color: black;
+}
+
+
+.bottombox{
+    width: 100%;
+    font-size: x-large;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    height:max-content;
+    padding: 60px 0px;
+}
+.footer-section{
+    background-color: black;
+    width: 76%;
+    display: flex;
+    color: white;
+    text-align: left;
+    margin: auto;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    color: #737373;
+    font-size: large;
+}
+.footer-lnk{
+    margin-top: 1em;
+    display: flex;
+    flex-wrap:wrap;
+}
+.footer-links{
+    width: 25%;
+    margin-top: 1em;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #737373;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+    color: #737373;
+}
+.footbtn{
+    margin: 10px 0px;
+}
