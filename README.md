@@ -1,4 +1,4 @@
-# 🎬 Netflix Clone README 🍿
+# 🎬 Netflix Clone 🍿
 
 ## Overview
 This project is a clone of Netflix, featuring functionalities such as content browsing, and a language changer. It is built using modern web development technologies to provide a seamless user experience.
