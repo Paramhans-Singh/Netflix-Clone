@@ -10,7 +10,10 @@ This project is a clone of Netflix, featuring functionalities such as content br
 - **Watchlist**: Add content to a personal watchlist.
 
 ## Netflix Website Preview 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmpnYXJkc3Z3aGszaHhsM2VodmdwdHZrb205bTRiaTJ2ejc2OHpwcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yd2gbG9KN74nHDXjeN/giphy.gif" alt="Netflix gif" width="1000"/>
+
+https://github.com/Paramhans-Singh/Netflix-Clone/assets/101575816/d5a60dc0-4674-43d1-ab9e-24cdcf874d45
+
+
 
 ## Technologies Used
 - **Frontend**: React.js, CSS, HTML
